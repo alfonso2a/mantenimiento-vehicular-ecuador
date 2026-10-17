@@ -35,7 +35,7 @@ Descargue **Programa_mantenimiento_Ecuador.xlsx** y ábralo en Microsoft Excel. 
 | Volkswagen | 13 | 156 |
 | **Total** | **111** | **1.847** |
 
-La matriz contiene 23.019 líneas de actividades y repuestos. La cobertura corresponde al archivo aportado y a los portales nacionales consultados. No implica que todas las versiones sigan a la venta o estén disponibles en una agencia específica.
+La matriz contiene 22.995 líneas de actividades y repuestos. La cobertura corresponde al archivo aportado y a los portales nacionales consultados. No implica que todas las versiones sigan a la venta o estén disponibles en una agencia específica.
 
 ## Fuentes y precios
 
