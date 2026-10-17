@@ -1,6 +1,18 @@
 # Mantenimiento vehicular — Ecuador
 
-Programa de mantenimiento preventivo en Excel para consultar actividades, repuestos y costos por vehículo y kilometraje.
+Aplicación web y programa Excel para consultar actividades, repuestos y costos por vehículo y kilometraje.
+
+## Abrir la página
+
+https://alfonso2a.github.io/mantenimiento-vehicular-ecuador/
+
+La página permite consultar planes, comparar costos y registrar vehículos. Los registros se guardan solo en el navegador. Utilice las opciones de exportar e importar copias JSON para conservarlos.
+
+## Código y publicación
+
+Sitio estático sin dependencias: index.html, styles.css, app.js y data.json. GitHub Pages publica desde la rama main y la carpeta raíz. Los cambios en estos archivos se publican con el siguiente despliegue de Pages.
+
+Para probarlo localmente, sirva esta carpeta con un servidor HTTP y abra su dirección en el navegador. El archivo data.json se carga mediante una petición local relativa.
 
 ## Archivo principal
 
@@ -45,4 +57,4 @@ Confirme los intervalos según el año, motor, transmisión, VIN y condiciones d
 
 El registro dispone de 50 filas preparadas. Para consultar hitos que no aparezcan en la lista de Consulta, utilice los filtros de Servicios.
 
-Herramienta independiente, sin afiliación ni aprobación de Mirasol o de los fabricantes. Este repositorio conserva el programa en Excel y sus instrucciones; no despliega una aplicación web.
+Herramienta independiente, sin afiliación ni aprobación de Mirasol o de los fabricantes. Este repositorio incluye la aplicación web y el programa Excel.
