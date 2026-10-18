@@ -10,7 +10,7 @@ La página permite consultar planes, comparar costos y registrar vehículos. Los
 
 ## Código y publicación
 
-Sitio estático sin dependencias: index.html, styles.css, app.js y data.json. GitHub Pages publica desde la rama main y la carpeta raíz. Los cambios en estos archivos se publican con el siguiente despliegue de Pages.
+Sitio estático sin dependencias externas: index.html, styles.css, maintenance.js, history.js, app.js y data.json. GitHub Pages publica desde la rama main y la carpeta raíz. Los cambios en estos archivos se publican con el siguiente despliegue de Pages.
 
 Para probarlo localmente, sirva esta carpeta con un servidor HTTP y abra su dirección en el navegador. El archivo data.json se carga mediante una petición local relativa.
 
@@ -58,3 +58,15 @@ Confirme los intervalos según el año, motor, transmisión, VIN y condiciones d
 El registro dispone de 50 filas preparadas. Para consultar hitos que no aparezcan en la lista de Consulta, utilice los filtros de Servicios.
 
 Herramienta independiente, sin afiliación ni aprobación de Mirasol o de los fabricantes. Este repositorio incluye la aplicación web y el programa Excel.
+
+
+## Funciones adaptadas de LubeLogger
+
+- Filtros y contadores de recordatorios adaptados de hargata/lubelog bajo licencia MIT.
+- Avisos de Vencido, Próximo y Programado con anticipación configurable por vehículo. Los valores iniciales de 1.000 km y 30 días son editables y no modifican el intervalo del fabricante.
+- Historial de servicios con fecha, odómetro, costo pagado, taller y notas.
+- Opción para que un servicio realizado actualice el próximo mantenimiento periódico.
+- Copia JSON versión 2 con vehículos e historial. Se siguen aceptando copias versión 1 de vehículos. La importación combina registros por identificador.
+- Historial conservado aunque se retire un vehículo del registro activo.
+
+La aplicación conserva los registros existentes del navegador. No instala el servidor completo de LubeLogger ni incorpora cuentas o sincronización entre equipos. Consulte THIRD_PARTY_NOTICES.md y LICENSE-LUBELOGGER.txt para conocer el código adaptado y la licencia.
